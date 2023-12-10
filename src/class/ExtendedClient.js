@@ -23,13 +23,13 @@ module.exports = class extends Client {
         super({
             intents: [Object.keys(GatewayIntentBits)],
             partials: [Object.keys(Partials)],
-            presence: {
-                activities: [{
-                    name: 'something goes here',
-                    type: 4,
-                    state: 'DiscordJS-V14-Bot-Template v2'
-                }]
-            }
+            // presence: {
+            //     activities: [{
+            //         name: 'Summer',
+            //         type: 4,
+            //         state: 'Summer'
+            //     }]
+            // }
         });
     };
 
